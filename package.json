@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "npm run install:package && npm run client:build && npm run server:start",
+    "start": "npm run client:build && npm run server:start",
     "install:package": "concurrently \"npm run client:install\" \"npm run server:install\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "client:install": "cd client && npm install",
