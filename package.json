@@ -12,7 +12,8 @@
     "client:start": "npm run start --prefix client",
     "server:install": "npm install",
     "server:start": "node ./server/app.js",
-    "server:dev": "nodemon --inspect ./server/app.js"
+    "server:dev": "nodemon --inspect ./server/app.js",
+    "heroku-prebuild": "npm run client:install"
   },
   "repository": {
     "type": "git",
