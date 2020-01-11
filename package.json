@@ -4,11 +4,13 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "npm run client:build && npm run server:start",
+    "start": "npm run install:package && npm run client:build && npm run server:start",
+    "install:package": "npm run client:install && npm run server:install",
     "test": "echo \"Error: no test specified\" && exit 1",
     "client:install": "cd client && npm install",
     "client:build": "npm run build --prefix client",
     "client:start": "npm run start --prefix client",
+    "server:install": "npm install",
     "server:start": "node ./server/app.js",
     "server:dev": "nodemon --inspect ./server/app.js"
   },
