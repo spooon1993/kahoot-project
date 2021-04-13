@@ -27,7 +27,7 @@
   "homepage": "https://github.com/spooon1993/kahoot-project#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "chai": "^4.1.2",
+    "chai": "^4.3.4",
     "chai-http": "^4.0.0",
     "concurrently": "^5.0.2",
     "cors": "^2.8.4",
