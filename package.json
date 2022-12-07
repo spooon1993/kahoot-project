@@ -26,12 +26,12 @@
   },
   "homepage": "https://github.com/spooon1993/kahoot-project#readme",
   "dependencies": {
-    "body-parser": "^1.18.2",
+    "body-parser": "^1.20.1",
     "chai": "^4.1.2",
     "chai-http": "^4.0.0",
     "concurrently": "^5.0.2",
     "cors": "^2.8.4",
-    "express": "^4.16.3",
+    "express": "^4.18.2",
     "jsonwebtoken": "^8.2.1",
     "mongoose": "^5.0.14",
     "socket.io": "^2.1.0"
